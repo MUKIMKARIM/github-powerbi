@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #87CEEB; /* Sky blue background */
+  line-height: 1.6; /* Increase line height for better readability */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #24292e;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.navbar .container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav a {
+  margin-right: 20px;
+  font-weight: 100;
+  font-size: 15px;
+  color: white;
+  background: #253666;
+  padding: 10px 20px;
+  border-radius: 2px;
+  transition: 0.3s ease-in-out;
+}
+
+.nav a:hover {
+  background: #3170ff;
+  color: black;
+}
+
+/* Main section */
+.main-container {
+  width: 85%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.main-container h1 {
+  font-size: 48px; /* Increase font size for the main heading */
+  color: #000;
+}
+
+.main-container h2 {
+  font-size: 24px; /* Set font size for secondary heading */
+  color: #000;
+}
+
+.main-container p {
+  font-size: 18px; /* Set font size for paragraphs */
+  color: #000;
+}
+
+.main-container .btn {
+  background: #f64d4a;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 2px;
+  box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.171);
+  transition: 0.2s ease-in-out;
+  font-size: 18px; /* Set font size for buttons */
+}
+
+.main-container .btn:hover {
+  background: #d6d6d6;
+  color: black;
+}
+
+/* Secondary container */
+.second-container {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.second-container img {
+  width: 100%; /* Set medium size for images */
+  border-radius: 10%;
+}
+
+.second-container .content {
+  margin: 100px 0;
+}
+
+.second-container .content h1 {
+  font-size: 32px; /* Increase font size for the secondary heading */
+  color: #f64d4a;
+}
+
+.second-container .content p {
+  font-size: 18px; /* Set font size for paragraphs */
+  color: #cb0ecb;
+}
+
+/* Third section */
+.third-container {
+  width: 85%;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.third-container h1 {
+  font-size: 32px; /* Increase font size for the main heading */
+  color: #000;
+}
+
+.third-container h2 {
+  font-size: 24px; /* Set font size for secondary heading */
+  color: #000;
+}
+
+.third-container p {
+  font-size: 18px; /* Set font size for paragraphs */
+  color: #000;
+}
+
+.third-container .btn {
+  background: #f64d4a;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 2px;
+  box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.171);
+  transition: 0.2s ease-in-out;
+  font-size: 18px; /* Set font size for buttons */
+}
+
+.third-container .btn:hover {
+  background: #d6d6d6;
+  color: black;
+}
+
+/* Footer */
+footer {
+  background-color: #24292e;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0; /* Increase padding for a more spacious footer */
+}
+
+footer p {
+  font-size: 16px; /* Increase font size for footer text */
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
